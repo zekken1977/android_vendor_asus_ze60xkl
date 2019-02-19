@@ -29,6 +29,62 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/tfamode:system/vendor/bin/tfamode \
     vendor/asus/msm8916-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/asus/msm8916-common/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.drc:system/etc/tfa/playback.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.drc:system/etc/tfa/playback_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.config:system/etc/tfa/tfa9895.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.config:system/etc/tfa/tfa9887.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.patch:system/etc/tfa/tfa9895.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.speaker:system/etc/tfa/tfa9887.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887l.speaker:system/etc/tfa/tfa9887l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.speaker:system/etc/tfa/tfa9895.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895_l.speaker:system/etc/tfa/tfa9895_l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.drc:system/etc/tfa/voice.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.drc:system/etc/tfa/voice_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.drc:system/etc/tfa/voip.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.eq:system/etc/tfa/voip.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.drc:system/etc/tfa/voip_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.config:system/etc/tfa2/fm.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.eq:system/etc/tfa2/fm.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.preset:system/etc/tfa2/fm.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.speaker:system/etc/tfa2/fm.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.config:system/etc/tfa2/playback.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.eq:system/etc/tfa2/playback.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.preset:system/etc/tfa2/playback.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.speaker:system/etc/tfa2/playback.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.config:system/etc/tfa2/recorder.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.eq:system/etc/tfa2/recorder.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.preset:system/etc/tfa2/recorder.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.speaker:system/etc/tfa2/recorder.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ReleaseNote.txt:system/etc/tfa2/ReleaseNote.txt \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.config:system/etc/tfa2/ring.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.eq:system/etc/tfa2/ring.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.preset:system/etc/tfa2/ring.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.speaker:system/etc/tfa2/ring.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tcoef.speaker:system/etc/tfa2/tcoef.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.config:system/etc/tfa2/tfa9887.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.patch:system/etc/tfa2/tfa9887.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.speaker:system/etc/tfa2/tfa9887.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887l.speaker:system/etc/tfa2/tfa9887l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.config:system/etc/tfa2/video.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.eq:system/etc/tfa2/video.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.preset:system/etc/tfa2/video.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.speaker:system/etc/tfa2/video.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.config:system/etc/tfa2/voice.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.eq:system/etc/tfa2/voice.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.preset:system/etc/tfa2/voice.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.speaker:system/etc/tfa2/voice.speaker \
     vendor/asus/msm8916-common/proprietary/etc/Tfa9887.cnt:system/etc/Tfa9887.cnt \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb \
